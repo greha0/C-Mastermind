@@ -2,10 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "C_Mastermind.exe"
-		},
-		{
-			"path" : "C_Mastermind.pdb"
+			"path" : "C_Mastermind"
 		}
 	],
 	"backtrace" : 1,
@@ -69,16 +66,12 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
-			},
-			{
-				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
-				"role" : "libraries"
 			}
 		],
 		"language" : "C"
 	},
 	"name" : "C_Mastermind",
-	"nameOnDisk" : "C_Mastermind.exe",
+	"nameOnDisk" : "C_Mastermind",
 	"paths" : 
 	{
 		"build" : ".",

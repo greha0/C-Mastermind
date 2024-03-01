@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/C_Mastermind.dir/main.c.o CMakeFiles/C_Mastermind.dir/gameFunctions/gameFunction.c.o -o C_Mastermind 

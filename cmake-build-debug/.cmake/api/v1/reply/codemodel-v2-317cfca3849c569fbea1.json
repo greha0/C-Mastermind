@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.26"
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "C_Mastermind::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-C_Mastermind-Debug-7f3f289272966c4ba49f.json",
+					"jsonFile" : "target-C_Mastermind-Debug-d0233cff1dfe65389af4.json",
 					"name" : "C_Mastermind",
 					"projectIndex" : 0
 				}
@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "K:/Informatica/C-Mastermind/cmake-build-debug",
-		"source" : "K:/Informatica/C-Mastermind"
+		"build" : "/home/greta/CLionProjects/C-Mastermind/cmake-build-debug",
+		"source" : "/home/greta/CLionProjects/C-Mastermind"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 5
+		"minor" : 6
 	}
 }
