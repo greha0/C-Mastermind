@@ -5,8 +5,8 @@
 
 int main() {
 
-    int n;
-    int pcCode[DIM];
+    int n; //numero inserito dall'utente
+    int pcCode[DIM]; //codice segreto del programma
     int playerCode[DIM];
     int pos[DIM];
     int validValue = 0;
@@ -24,7 +24,8 @@ int main() {
         //richiesta dei dati all'utente
 
         printf("TENTATIVO %d\n", tent);
-        i = 0;
+        i=0;
+
         do {
 
             do {
@@ -35,6 +36,8 @@ int main() {
 
             } while (validValue == 1);
 
+            playerCode[i]=n;
+
             validValue = 0;
 
             i++;
@@ -43,11 +46,6 @@ int main() {
         //QUI VA LA FUNZIONE DELLE RISPOSTE DEL PC
         controllo(pcCode, playerCode, pos);
         printf("\n");
-        printf("%d", pos[0]);
-        printf("%d", pos[1]);
-        printf("%d", pos[2]);
-        printf("%d", pos[3]);
-        printf("%d", pos[4]);
 
         printf("\n");
         tent++;
