@@ -54,6 +54,7 @@ void controllo(int pc[], int player[]){
               cont++;
             }
         }
+
         if(cont<1){
             x++;
         }

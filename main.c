@@ -34,7 +34,7 @@ int main() {
 
             } while (validValue == 1);
 
-            playerCode[i]=n;
+            playerCode[i] = n;
 
             validValue = 0;
 
