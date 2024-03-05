@@ -2,6 +2,7 @@
 #include "gameFunction.h"
 #include <time.h>
 #include <stdlib.h>
+#include <stdio.h>
 
 #define DIM 5
 
@@ -24,11 +25,12 @@ int validita(int n) {
     return 1; //non valido
 }
 
-void controllo(int pc[], int player[], int posizioni[]){
+void controllo(int pc[], int player[]){
 
     int g=0;
     int s=0;
     int x=0;
+    int cont=0;
 
     int i;
     int k;
@@ -43,23 +45,24 @@ void controllo(int pc[], int player[], int posizioni[]){
         if(pc[i]==player[i]){
             g++;
         }
-        if((player[i]==1)||(player[i]==2)||(player[i]==3)||(player[i]==4)){
-            s++;
-        } else {
-            x++;
-        }
     }
-    s=s-g;
+    printf("g: %d\n", g);
 
     for(i=0;i<DIM;i++){
-        for(k=0;k<g;k++){
-            posizioni[i]=0;
+        for(k=0;k<DIM;k++){
+            if(player[i]==pc[k]){
+              cont++;
+            }
         }
-        for(k=0;k<s;k++){
-            posizioni[i]=1;
+        if(cont<1){
+            x++;
         }
-        for(k=0;k<x;k++){
-            posizioni[i]=2;
-        }
+        cont=0;
     }
+
+    s=DIM-x-g;
+
+    printf("s: %d\n", s);
+
+    printf("x: %d\n", x);
 }
