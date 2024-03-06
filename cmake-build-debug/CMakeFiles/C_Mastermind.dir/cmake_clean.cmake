@@ -1,12 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/C_Mastermind.dir/gameFunctions/gameFunction.c.obj"
-  "CMakeFiles/C_Mastermind.dir/gameFunctions/gameFunction.c.obj.d"
-  "CMakeFiles/C_Mastermind.dir/main.c.obj"
-  "CMakeFiles/C_Mastermind.dir/main.c.obj.d"
-  "C_Mastermind.exe"
-  "C_Mastermind.exe.manifest"
+  "CMakeFiles/C_Mastermind.dir/gameFunctions/gameFunction.c.o"
+  "CMakeFiles/C_Mastermind.dir/gameFunctions/gameFunction.c.o.d"
+  "CMakeFiles/C_Mastermind.dir/main.c.o"
+  "CMakeFiles/C_Mastermind.dir/main.c.o.d"
+  "C_Mastermind"
   "C_Mastermind.pdb"
-  "libC_Mastermind.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Greta/CLionProjects/C-Mastermind/gameFunctions/gameFunction.c" "CMakeFiles/C_Mastermind.dir/gameFunctions/gameFunction.c.obj" "gcc" "CMakeFiles/C_Mastermind.dir/gameFunctions/gameFunction.c.obj.d"
-  "C:/Users/Greta/CLionProjects/C-Mastermind/main.c" "CMakeFiles/C_Mastermind.dir/main.c.obj" "gcc" "CMakeFiles/C_Mastermind.dir/main.c.obj.d"
+  "/home/greta/CLionProjects/C-Mastermind/gameFunctions/gameFunction.c" "CMakeFiles/C_Mastermind.dir/gameFunctions/gameFunction.c.o" "gcc" "CMakeFiles/C_Mastermind.dir/gameFunctions/gameFunction.c.o.d"
+  "/home/greta/CLionProjects/C-Mastermind/main.c" "CMakeFiles/C_Mastermind.dir/main.c.o" "gcc" "CMakeFiles/C_Mastermind.dir/main.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
