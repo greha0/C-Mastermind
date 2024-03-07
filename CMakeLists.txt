@@ -7,4 +7,5 @@ add_executable(C_Mastermind
         main.c
         gameFunctions/gameFunction.h
         gameFunctions/gameFunction.c
+        color.h
 )

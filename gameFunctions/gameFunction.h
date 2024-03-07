@@ -9,6 +9,6 @@ void generaCodice(int v[]);
 
 int validita(int n);
 
-void controllo(int pc[], int player[]);
+int controllo(int pc[], int player[]);
 
 #endif //C_MASTERMIND_GAMEFUNCTION_H

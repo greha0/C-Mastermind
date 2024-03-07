@@ -3,6 +3,7 @@
 #include <time.h>
 #include <stdlib.h>
 #include <stdio.h>
+#include "../color.h"
 
 #define DIM 5
 
@@ -25,10 +26,10 @@ int validita(int n) {
     return 1; //non valido
 }
 
-void controllo(int pc[], int player[]){
+int controllo(int pc[], int player[]){
 
     int g=0;
-    int s=0;
+    int s;
     int x=0;
     int cont=0;
 
@@ -46,7 +47,6 @@ void controllo(int pc[], int player[]){
             g++;
         }
     }
-    printf("g: %d\n", g);
 
     for(i=0;i<DIM;i++){
         for(k=0;k<DIM;k++){
@@ -61,9 +61,32 @@ void controllo(int pc[], int player[]){
         cont=0;
     }
 
-    s=DIM-x-g;
+    s=DIM-g-x;
 
-    printf("s: %d\n", s);
+    for(i=0;i<g;i++){
+        CORRECT;
 
-    printf("x: %d\n", x);
+        printf("V");
+
+        DEFAULT;
+    }
+
+    for(i=0;i<s;i++){
+
+        RED;
+
+        printf("X");
+
+        DEFAULT;
+    }
+
+    for(i=0;i<x;i++){
+
+        printf("o");
+
+    }
+
+    printf("\n");
+
+    return g;
 }
